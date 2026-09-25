@@ -93,3 +93,10 @@ public class DynamicArray {
     }
 
 }
+
+/*
+1. Array lists can hold anything in them while our lists can only hold ints
+2. ArrayLists start with an automatic capcity of 10 while ours do not
+3. has a trimToSize mehtod that cuts the ArrayList don to current size while
+our list can never gat smaller
+ */

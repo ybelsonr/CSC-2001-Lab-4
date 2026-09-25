@@ -12,9 +12,9 @@ class MainTest {
 
     @Test
     void testEmpty() {
-        DynamicArray any = new DynamicArray(new int[0], 0);
-        DynamicArray list = any.empty();
-        assertEquals(0, list.length());
+        DynamicArray a = new DynamicArray(new int[0], 0);
+        DynamicArray b = a.empty();
+        assertEquals(0, b.length());
     }
 
     @Test
